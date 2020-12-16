@@ -6,7 +6,7 @@
 }
 
 .hero-title {
-  color: white;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
@@ -17,8 +17,13 @@
   color: white;
   background-color: var(--hover-color);
   border: none;
+  font-family: Roboto;
   font-weight: bold;
+  font-size: 16px;
   line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* 4 принципа */
@@ -43,6 +48,7 @@
 .team-card {
   background-color: white;
   line-height: 1.19;
+  text-align: center;
 }
 
 .card-title {

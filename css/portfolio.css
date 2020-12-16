@@ -1,13 +1,38 @@
 .filter {
+  color: var(--primary-text-color);
   background-color: var(--filter-bg-color);
   border: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .filter:hover,
-.filter:focus {
-  color: white;
+.filter:focus,
+.portfolio-title:hover,
+.portfolio-title:focus,
+.portfolio-text:hover,
+.portfolio-text:focus {
+  color: var(--white);
   background-color: var(--hover-color);
 }
 
-/* На макете вроде как ошибка. Указан bg-color страницы #E5E5E5 (сероватый),
-но когда его вносить, то он сильно серый, явно темнее чем на макете. */
+.portfolio-card {
+  background-color: var(--white);
+}
+
+.portfolio-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+}

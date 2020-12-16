@@ -3,13 +3,15 @@
   --secondary-text-color: #757575;
   --hover-color: #2196f3;
   --filter-bg-color: #f5f4fa;
+  --secondary-bg-color: #e5e5e5;
+  --white: #ffffff;
 }
 
 body {
   font-family: roboto, sans-serif;
   font-size: 14px;
   color: var(--primary-text-color);
-  background-color: white;
+  background-color: var(--secondary-bg-color);
   letter-spacing: 0.03em;
 }
 
@@ -27,11 +29,14 @@ a {
 }
 
 /* Header */
+.header {
+  background-color: var(--white);
+}
 
 .logo {
   font-family: raleway, sans-serif;
   font-size: 26px;
-  color: black;
+  color: #000000;
   font-weight: bold;
   line-height: 1.19;
 }
@@ -59,6 +64,8 @@ a {
 .site-nav:focus,
 .e-mail:hover,
 .e-mail:focus,
+.address:hover,
+.address:focus,
 .tel:hover,
 .tel:focus {
   color: var(--hover-color);
@@ -79,16 +86,16 @@ address {
 }
 
 .address {
-  color: white;
+  color: var(--white)
   line-height: 1.71;
 }
 
-.logo-studio {
-  color: white;
+footer .logo {
+  color: var(--white)
 }
 
 .footer-e-mail,
 .footer-tel {
-  color: rgb(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
 }
