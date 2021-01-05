@@ -14,10 +14,11 @@
 }
 
 .hero-btn {
-  color: white;
+  display: inline-block;
+  color: var(--white);
   background-color: var(--hover-color);
+  font-family: Roboto, sans-serif;
   border: none;
-  font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
